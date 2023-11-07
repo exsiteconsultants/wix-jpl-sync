@@ -1,0 +1,21 @@
+{
+  "name": "@ztolley/wix-jpl-sync",
+  "version": "0.1.0",
+  "description": "JPL to WIX Collection Sync",
+  "author": "Zac Tolley <zac@thetolleys.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ztolley/wix-jpl-sync.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@wix/data": "^1.0.56",
+    "@wix/sdk": "^1.5.6",
+    "dotenv": "^16.3.1"
+  }
+}
